@@ -29,14 +29,14 @@ const Part = ({ c }) => {
 	return (<div> {c.name + ' '} {c.exercises}</div>);
 }
 
-const Total = ({course})=>{
-	const reducer = (acc,cur)=>acc+cur;
-	const num=course.map(c=>c.exercises);
-	const sum=num.reduce(reducer);
-	return(
-	<div>
-		<strong>total of {sum} exercises</strong>
-	</div>)
+const Total = ({ course }) => {
+	const reducer = (acc, cur) => acc + cur;
+	const num = course.map(c => c.exercises);
+	const sum = num.reduce(reducer);
+	return (
+		<div>
+			<strong>total of {sum} exercises</strong>
+		</div>)
 }
 
 export default Course;

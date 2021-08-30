@@ -28,7 +28,7 @@ const App = () => {
           id: 4
         }
       ]
-    }, 
+    },
     {
       name: 'Node.js',
       id: 2,
@@ -53,7 +53,7 @@ const App = () => {
       <Course course={courses} />
     </div>
   )
-  
+
 
 }
 
